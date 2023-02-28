@@ -1,0 +1,264 @@
+.required {
+  color: red;
+}
+
+.owner_menu {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.owner_menu_layout {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(143, 96, 8, 1);
+  color: #fff;
+}
+
+.owner_menu_ttl {
+  margin: 7px 0 0 20px;
+  padding-right: 30px;
+}
+
+.owner_menu_nav {
+  box-sizing: border-box;
+}
+
+.owner_menu_ul {
+  display: flex;
+}
+
+.owner_menu_ul li {
+  text-align: center;
+  border: 1px solid rgb(185, 144, 60);
+  padding: 7px 30px;
+}
+
+.owner_menu_ul li:hover {
+  background-color: rgb(231, 212, 173);
+  color: #000;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.owner_section {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.paginate {
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.reserve_layout {
+  overflow-y: auto;
+  height: 68vh;
+}
+
+.res_form_screen {
+  white-space: nowrap;
+  width: 100%;
+}
+
+.res_form_header {
+  display: flex;
+}
+
+.res_search {
+  border: 1px solid #cdcdcd;
+  border-radius: 6px;
+  display: flex;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.res_search li {
+  padding: 10px 5px;
+}
+
+.res_search li {
+  padding: 10px 5px;
+}
+
+.res_search li:not(:nth-child(1)) {
+  padding-right: 15px;
+}
+
+.res_search_ttl {
+  margin-top: 5px;
+}
+
+.res_search_ttl:before {
+  content: '';
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-image: url(/img/search.png);
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.search_name {
+  font-size: 14px;
+}
+
+.res_search input,
+.res_search select {
+  border: 1px solid gray;
+  border-radius: 4px;
+  background-color: #fff;
+  height: 30px;
+}
+
+.res_search input {
+  width: 120px;
+}
+
+.search_date {
+  text-align:center;
+}
+
+.res_search input:focus,
+.res_search select:focus {
+  background-color: rgb(231, 212, 173);
+}
+
+.res_search select {
+  padding: 5px;
+}
+
+#search_btn {
+  background-color: #cdcdcd;
+  padding: 6px 10px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.reserve_tbl th {
+  background-color: #ededed;
+  border: 1px solid #000;
+  padding: 6px 10px;
+  text-align: center;
+  word-wrap: nowrap;
+  white-space: nowrap;
+}
+
+.reserve_tbl td {
+  border: 1px solid #000;
+  padding: 6px 10px;
+  word-wrap: nowrap;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.reserve_tbl tr:hover {
+  background-color: rgb(231, 212, 173);
+  cursor: pointer;
+}
+
+.reserve_tbl input,
+.reserve_tbl select {
+  border: 1px solid gray;
+  border-radius: 4px;
+  background-color: #fff;
+  height: 25px;
+  text-align: center;
+}
+
+.reserve_tbl input[type=checkbox] {
+  width: 40px;
+}
+
+.reserve_tbl select {
+  padding: 2px 10px;
+}
+.reserve_tbl input[type=text] {
+  width: 100px;
+  text-align:right;
+  padding-right: 10px;
+}
+
+.owner_ttl {
+  font-size: 20px;
+}
+
+.message {
+  padding: 10px 0;
+}
+
+.shop_data {
+  margin: 10px;
+}
+
+.owner_reg_tbl tr:hover {
+  background-color: rgb(231, 212, 173);
+  cursor: pointer;
+}
+
+.owner_reg_tbl th,
+.owner_reg_tbl td {
+  border: 1px solid rgb(128, 128, 128);
+  height: 40px;
+  vertical-align: middle;
+  padding: 0 10px;
+  white-space: nowrap;
+}
+
+.owner_reg_tbl input,
+.owner_reg_tbl select,
+.owner_reg_tbl textarea {
+  border: 1px solid gray;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.owner_reg_tbl input {
+  width: 340px;
+}
+
+.owner_reg_tbl file {
+  padding-top: 5px;
+}
+
+.address {
+  width: 340px;
+}
+
+.owner_reg_tbl select {
+  padding: 4px 10px;
+  width: 100px;
+}
+
+.overview_ttl {
+  padding: 10px;
+}
+
+.owner_reg_tbl textarea {
+  width: 100%;
+  height: 14vh;
+  padding: 4px;
+  margin-bottom: 10px;
+  resize: none;
+}
+
+.register_layout {
+  width: 550px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.register_btn {
+  background-color: orange;
+  color: #fff;
+  font-weight: 600;
+  padding: 7px 20px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.error_p {
+  margin: 5px 0;
+}

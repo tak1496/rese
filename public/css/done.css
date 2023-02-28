@@ -1,0 +1,31 @@
+.done_layout {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 0 0 6px 6px;
+  z-index: -1;
+  width: 400px;
+  height: 25vh;
+  text-align: center;
+}
+
+.done_layout h2{
+  margin-top: 80px;
+}
+
+.done_layout div {
+  padding-top: 60px;
+}
+
+.done_btn {
+  padding: 6px 15px;
+  background: orange;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 6px;
+  white-space: nowrap;
+  font-size: 14px;
+  text-decoration: none;
+}

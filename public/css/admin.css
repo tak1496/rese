@@ -1,0 +1,295 @@
+.required {
+  color: red;
+}
+
+.admin_menu {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.admin_menu_layout {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(143, 96, 8, 1);
+  color: #fff;
+}
+
+.admin_menu_ttl {
+  margin: 7px 0 0 20px;
+  padding-right: 30px;
+}
+
+.admin_menu_nav {
+  box-sizing: border-box;
+}
+
+.admin_menu_ul {
+  display: flex;
+}
+
+.admin_menu_ul li {
+  text-align:center;
+  border: 1px solid rgb(185, 144, 60);
+  padding: 7px 30px;
+}
+
+.admin_menu_ul li:hover {
+  background-color: rgb(231, 212, 173);
+  color: #000;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.admin_form_layout {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.admin_form_screen {
+  white-space: nowrap;
+  overflow-y: auto;
+  width: 100%;
+  min-height: 70vh;
+}
+
+.admin_form_header {
+  display: flex;
+}
+
+.paginate {
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.shop_register {
+  width: 100px;
+  height: 40px;
+  background-color: orange;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.admin_search {
+  margin-left: 20px;
+  border: 1px solid #cdcdcd;
+  border-radius: 6px;
+  display: flex;
+  width: 500px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.admin_search li{
+  padding: 10px 5px;
+}
+
+.admin_search_ttl {
+  margin-top: 5px;
+}
+
+.admin_search_ttl:before {
+  content: '';
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-image: url(/img/search.png);
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.admin_search input,
+.admin_search select {
+  border: 1px solid gray;
+  border-radius: 4px;
+  background-color: #fff;
+  height: 30px;
+}
+
+.admin_search input:focus,
+.admin_search select:focus {
+  background-color: rgb(231, 212, 173);
+}
+
+.admin_search select {
+  padding: 5px;
+}
+
+.shop_data{
+  margin: 10px;
+}
+
+.admin_form_tbl th {
+  background-color: #ededed;
+  border: 1px solid #000;
+  padding: 6px 10px;
+  text-align: center;
+  word-wrap: nowrap;
+  white-space: nowrap;
+}
+
+.admin_form_tbl td {
+  border: 1px solid #000;
+  padding: 6px;
+  word-wrap: nowrap;
+  white-space: nowrap;
+}
+
+.admin_form_tbl tr:hover {
+  background-color: rgb(231, 212, 173);
+  cursor: pointer;
+}
+
+.shop_set {
+  background-color: rgb(58, 111, 226);
+  color: #fff;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.shop_mail:hover {
+  color: #0000ee;
+}
+
+.admin_ttl {
+  padding-bottom: 10px;
+}
+
+.admin_reg_tbl tr:hover {
+  background-color: rgb(231, 212, 173);
+  cursor: pointer;
+}
+
+.admin_reg_tbl th,
+.admin_reg_tbl td{
+  border: 1px solid rgb(128, 128, 128);
+  height: 40px;
+  vertical-align: middle;
+  padding: 0 10px;
+  white-space: nowrap;
+}
+
+.admin_reg_tbl input,
+.admin_reg_tbl select,
+.admin_reg_tbl textarea {
+  border: 1px solid gray;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.admin_reg_tbl textarea {
+  width: 100%;
+  height: 14vh;
+  padding: 4px;
+  margin-bottom: 10px;
+  resize: none;
+}
+
+.admin_reg_tbl input {
+  width: 340px;
+}
+
+.admin_reg_tbl file {
+  padding-top: 5px;
+}
+
+.address {
+  width: 340px;
+}
+
+.admin_reg_tbl select {
+  padding: 4px 10px;
+  width: 100px;
+}
+
+.overview_ttl {
+  padding: 10px;
+}
+
+.admin_mail_title p {
+  margin-top: 10px;
+}
+
+.alert-success {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.alert-danger {
+  margin-top: 20px;
+  font-weight: 600;
+  color: red;
+}
+
+.form-group {
+  margin-top: 20px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 4px;
+  margin-bottom: 10px;
+  resize: none;
+  border: 1px solid #cdcdcd;
+  border-radius: 6px;
+}
+
+.form-group textarea {
+  height: 20vh;
+}
+
+.register_layout {
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.register_btn {
+  background-color: orange;
+  color: #fff;
+  font-weight: 600;
+  padding: 7px 20px;
+  border-radius: 6px;
+}
+
+.display_message {
+  color: red;
+  font-size: 12px;
+}
+
+.mail_tbl tr{
+  height: 100px;
+}
+
+.mail_tbl th {
+  white-space: nowrap;
+  text-align: right;
+}
+
+.mail_tbl td {
+  word-wrap: break-word;
+  width: 200px;
+  white-space: wrap;
+}
+
+.mail_tbl th,td {
+  padding-top: 10px;
+}
+
+.mail_btn {
+  background-color: orange;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.error_p {
+  margin: 5px 0;
+}

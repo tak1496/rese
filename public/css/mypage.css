@@ -1,0 +1,403 @@
+section {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.mypage_name {
+  margin-top: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+.mypage_name h2 {
+  font-size: 25px;
+}
+
+.res_layout {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.res_layout1 {
+  padding-right: 30px;
+  min-width: 360px;
+}
+
+.res_layout2 {
+  width: 60%;
+}
+
+.res_ttl {
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+.res_card {
+  margin-bottom: 30px;
+  padding: 20px 0 0 40px;
+  width: 360px;
+  height: 230px;
+  background: url(/img/86580.png) no-repeat;
+  background-size: 100%;
+  
+}
+
+.res_card_tbl {
+  width: 300px;
+  font-size: 15px;
+}
+
+.res_card_tbl td {
+  vertical-align: middle;
+  height: 25px;
+  font-size: 16px;
+}
+
+.res_card_ttl {
+  height: 50px;
+}
+
+.res_card_ttl span {
+  padding-left: 20px;
+  vertical-align: top;
+}
+
+.image {
+  width: 24px;
+  height: 24px;
+}
+
+.close:hover {
+  cursor: pointer;
+}
+
+.card_review a {
+  text-decoration: underline;
+  font-size: 15px;
+}
+
+.card_review a:hover {
+  cursor: pointer;
+}
+
+.res_ttl_like {
+  font-size: 20px;
+  padding: 20px 0 0 0;
+}
+
+.res_flex__item {
+  display: flex;
+  flex-wrap: wrap;
+  vertical-align: top;
+}
+
+.card_grid {
+  width: 270px;
+  padding: 20px 10px;
+}
+
+.practice__card {
+  width: 250px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.card__img img {
+  width: 100%;
+  height: 17vh;
+  border-radius: 5px 5px 0 0;
+  display: block;
+  margin: auto;
+}
+
+.card__content {
+  padding: 15px 25px;
+}
+
+.card__ttl {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  white-space: nowrap;
+}
+
+.tag {
+  white-space: nowrap;
+}
+
+.tag p {
+  font-size: clamp(8px, 1vw, 13px);
+}
+
+.card_detail {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__cat {
+  margin-top: 10px;
+  font-size: 13px;
+  border: 1px solid orange;
+  padding: 6px 10px 0 10px;
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px rgba(143, 96, 8, 1);
+  height: 30px;
+  margin: auto 0;
+}
+
+.card__cat::after {
+  content: "";
+  background: url(/img/fork.png);
+  background-size: cover;
+  vertical-align: middle;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  white-space: pre;
+}
+
+.card__cat:hover {
+  cursor: pointer;
+}
+
+.card__haert {
+  padding-top: 14px;
+  padding-right: 5px;
+  width: 14%;
+  height: 14%;
+}
+
+.card__haert:hover {
+  cursor: pointer;
+}
+
+.tag {
+  font-size: 14px;
+}
+
+.card__area {
+  display: inline-block;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.card__genre {
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.card_review {
+  margin-top: 10px;
+  font-size: 16px;
+  display: flex;
+}
+
+.res_change {
+  padding: 5px 0 0 0;
+  text-align: center;
+}
+
+.res_change_btn {
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid rgb(217, 199, 102);
+    padding: 4px 10px;
+    font-size: 14px;
+    margin-right: 30px;
+}
+
+.res_change_btn:hover {
+  cursor: pointer;
+}
+
+.md_tbl td {
+  height: 40px;
+}
+
+.md_tbl input {
+  border-radius: 6px;
+  border: none;
+  height: 26px;
+  width: 200px;
+  text-align: center;
+  font-size: 18px;
+  background-color: #fff;
+  border: 1px solid #949087;
+}
+
+.md_tbl input:hover {
+  cursor: pointer;
+}
+
+.sel_member {
+  border-radius: 6px;
+  border: 1px solid #949087;
+  height: 26px;
+  width: 200px;
+  text-align: center;
+  font-size: 18px;
+  background-color: #fff;
+}
+
+.sel_member:hover {
+  cursor: pointer;
+}
+
+.sel_member option {
+  color: #000;
+}
+
+.reserve_btn_div {
+  padding-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.reserve_btn {
+  background-color: orange;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  padding: 6px 25px;
+}
+
+.reserve_btn:hover {
+  cursor: pointer;
+}
+
+.error {
+  font-size: 14px;
+}
+
+.modal-shop_name {
+  font-size: 16px;
+}
+
+.rate-form {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.rate-form input[type=radio] {
+  display: none;
+}
+
+.rate-form label {
+  position: relative;
+  padding: 10px 5px;
+  color: #ccc;
+  cursor: pointer;
+  font-size: 35px;
+}
+
+.rate-form label:hover {
+  color: #ffcc00;
+}
+
+.rate-form label:hover~label {
+  color: #ffcc00;
+}
+
+.rate-form input[type=radio]:checked~label {
+  color: #ffcc00;
+}
+
+.comment-form {
+  margin-top: 10px;
+}
+
+.comment-form p{
+  padding-bottom: 5px;
+}
+
+.comment-form textarea{
+  resize: none;
+  border: 1px solid #cdcdcd;
+  width: 98%;
+  height: 14vh;
+  padding: 10px;
+}
+
+.modal-review_btn {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.modal-review_btn a {
+  background-color: orange;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  padding: 6px 25px;
+}
+
+.qr_tbl tr {
+  height: 30px;
+}
+
+.qr_tbl th {
+  text-align: right;
+}
+
+.qr_url {
+  display: none;
+}
+
+@media screen and (max-width : 768px) {
+  section {
+      width: 100%;
+    }
+    
+  .res_layout {
+    width: 80%;
+  }
+
+  .res_layout1 {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .res_flex__item {
+    width: 80%;
+  }
+
+  .res_card_layout {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-left: 10px;
+  }
+
+  .res_card {
+    margin-bottom: 30px;
+    padding: 20px 20px 0 40px;
+    width: 340px;
+    height: 230px;
+  }
+
+  .res_layout2 {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .card_grid {
+    justify-content: center;
+  }
+
+  .practice__card {
+    width: 300px;
+  }
+
+  .card__img img {
+    height:20vh;
+  }
+}
